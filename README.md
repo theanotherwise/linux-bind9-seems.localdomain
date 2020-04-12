@@ -1,5 +1,15 @@
 #### `named.conf`
 ```
+options {
+
+  /* ... */
+
+  forwarders {
+    8.8.8.8;
+    8.8.4.4;
+  };
+};
+
 zone "localdomain" IN {
   type master;
   file "forward.localdomain";
