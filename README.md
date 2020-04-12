@@ -1,4 +1,17 @@
-### `forward.localdomain`
+#### `named.conf`
+```
+zone "localdomain" IN {
+  type master;
+  file "forward.localdomain";
+};
+
+zone "10.10.in-addr.arpa" IN {
+  type master;
+  file "reverse.localdomain";
+};
+```
+
+#### `forward.localdomain`
 ```bash
 $TTL    86400
 @       IN      SOA     dns0.localdomain. root.localdomain. (
