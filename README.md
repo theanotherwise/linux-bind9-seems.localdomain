@@ -1,4 +1,14 @@
 #### `named.conf`
+
+```bash
+or i in `cat 10.10.in-addr.arpa  | grep -Po "[0-9]*[a-z]*[0-9]*\.localdomain\."` ; do nslookup $i ; done
+```
+
+
+```bash
+for j in $(for i in `cat 10.10.in-addr.arpa  | grep -Po "[0-9]*[a-z]*[0-9]*\.localdomain\."` ; do nslookup $i ; done | grep -Po "Address: \K.*") ; do nslookup $j ; done
+```
+
 ```
 options {
 
