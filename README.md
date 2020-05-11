@@ -58,7 +58,6 @@ debian10        IN      A       10.10.0.52
 ubuntu16        IN      A       10.10.0.61
 ubuntu18        IN      A       10.10.0.62
 
-# Satellite
 1sat0           IN      A       10.10.20.10
 1sat1           IN      A       10.10.20.11
 1sat2           IN      A       10.10.20.12
@@ -70,7 +69,6 @@ ubuntu18        IN      A       10.10.0.62
 1sat8           IN      A       10.10.20.18
 1sat9           IN      A       10.10.20.19
 
-# vCenter
 1vce0           IN      A       10.10.30.10
 1vce1           IN      A       10.10.30.11
 1vce2           IN      A       10.10.30.12
@@ -82,7 +80,6 @@ ubuntu18        IN      A       10.10.0.62
 1vce8           IN      A       10.10.30.18
 1vce9           IN      A       10.10.30.19
 
-# ESX
 1esx0           IN      A       10.10.40.10
 1esx1           IN      A       10.10.40.11
 1esx2           IN      A       10.10.40.12
@@ -94,7 +91,6 @@ ubuntu18        IN      A       10.10.0.62
 1esx8           IN      A       10.10.40.18
 1esx9           IN      A       10.10.40.19
 
-# Zabbix
 1zab0           IN      A       10.10.50.10
 1zab1           IN      A       10.10.50.11
 1zab2           IN      A       10.10.50.12
@@ -106,7 +102,6 @@ ubuntu18        IN      A       10.10.0.62
 1zab8           IN      A       10.10.50.18
 1zab9           IN      A       10.10.50.19
 
-# Puppet
 1pup0           IN      A       10.10.60.10
 1pup1           IN      A       10.10.60.11
 1pup2           IN      A       10.10.60.12
@@ -118,7 +113,6 @@ ubuntu18        IN      A       10.10.0.62
 1pup8           IN      A       10.10.60.18
 1pup9           IN      A       10.10.60.19
 
-# The Foreman
 1for0           IN      A       10.10.70.10
 1for1           IN      A       10.10.70.11
 1for2           IN      A       10.10.70.12
@@ -130,7 +124,6 @@ ubuntu18        IN      A       10.10.0.62
 1for8           IN      A       10.10.70.18
 1for9           IN      A       10.10.70.19
 
-# Elasticsearch
 1elk0           IN      A       10.10.80.10
 1elk1           IN      A       10.10.80.11
 1elk2           IN      A       10.10.80.12
@@ -142,7 +135,6 @@ ubuntu18        IN      A       10.10.0.62
 1elk8           IN      A       10.10.80.18
 1elk9           IN      A       10.10.80.19
 
-# Ansible
 1ans0           IN      A       10.10.90.10
 1ans1           IN      A       10.10.90.11
 1ans2           IN      A       10.10.90.12
@@ -154,7 +146,6 @@ ubuntu18        IN      A       10.10.0.62
 1ans8           IN      A       10.10.90.18
 1ans9           IN      A       10.10.90.19
 
-# Kickstart
 1kst0           IN      A       10.10.100.10
 1kst1           IN      A       10.10.100.11
 1kst2           IN      A       10.10.100.12
@@ -166,7 +157,6 @@ ubuntu18        IN      A       10.10.0.62
 1kst8           IN      A       10.10.100.18
 1kst9           IN      A       10.10.100.19
 
-# Oracle
 1ora0           IN      A       10.10.110.10
 1ora1           IN      A       10.10.110.11
 1ora2           IN      A       10.10.110.12
@@ -178,7 +168,6 @@ ubuntu18        IN      A       10.10.0.62
 1ora8           IN      A       10.10.110.18
 1ora9           IN      A       10.10.110.19
 
-# Jenkins
 1jen0           IN      A       10.10.120.10
 1jen1           IN      A       10.10.120.11
 1jen2           IN      A       10.10.120.12
@@ -190,7 +179,6 @@ ubuntu18        IN      A       10.10.0.62
 1jen8           IN      A       10.10.120.18
 1jen9           IN      A       10.10.120.19
 
-# Gitlab
 1git0           IN      A       10.10.130.10
 1git1           IN      A       10.10.130.11
 1git2           IN      A       10.10.130.12
@@ -275,16 +263,16 @@ $TTL    86400
 18.50   IN      PTR     1zab8.localdomain.
 19.50   IN      PTR     1zab9.localdomain.
 
-10.60   IN      PTR     0pup0.localdomain.
-11.60   IN      PTR     0pup1.localdomain.
-12.60   IN      PTR     0pup2.localdomain.
-13.60   IN      PTR     0pup3.localdomain.
-14.60   IN      PTR     0pup4.localdomain.
-15.60   IN      PTR     0pup5.localdomain.
-16.60   IN      PTR     0pup6.localdomain.
-17.60   IN      PTR     0pup7.localdomain.
-18.60   IN      PTR     0pup8.localdomain.
-19.60   IN      PTR     0pup9.localdomain.
+10.60   IN      PTR     1pup0.localdomain.
+11.60   IN      PTR     1pup1.localdomain.
+12.60   IN      PTR     1pup2.localdomain.
+13.60   IN      PTR     1pup3.localdomain.
+14.60   IN      PTR     1pup4.localdomain.
+15.60   IN      PTR     1pup5.localdomain.
+16.60   IN      PTR     1pup6.localdomain.
+17.60   IN      PTR     1pup7.localdomain.
+18.60   IN      PTR     1pup8.localdomain.
+19.60   IN      PTR     1pup9.localdomain.
 
 10.70   IN      PTR     1for0.localdomain.
 11.70   IN      PTR     1for1.localdomain.
@@ -319,16 +307,16 @@ $TTL    86400
 18.90   IN      PTR     1ans8.localdomain.
 19.90   IN      PTR     1ans9.localdomain.
 
-10.100  IN      PTR     1ks0.localdomain.
-11.100  IN      PTR     1ks1.localdomain.
-12.100  IN      PTR     1ks2.localdomain.
-13.100  IN      PTR     1ks3.localdomain.
-14.100  IN      PTR     1ks4.localdomain.
-15.100  IN      PTR     1ks5.localdomain.
-16.100  IN      PTR     1ks6.localdomain.
-17.100  IN      PTR     1ks7.localdomain.
-18.100  IN      PTR     1ks8.localdomain.
-19.100  IN      PTR     1ks9.localdomain.
+10.100  IN      PTR     1kst0.localdomain.
+11.100  IN      PTR     1kst1.localdomain.
+12.100  IN      PTR     1kst2.localdomain.
+13.100  IN      PTR     1kst3.localdomain.
+14.100  IN      PTR     1kst4.localdomain.
+15.100  IN      PTR     1kst5.localdomain.
+16.100  IN      PTR     1kst6.localdomain.
+17.100  IN      PTR     1kst7.localdomain.
+18.100  IN      PTR     1kst8.localdomain.
+19.100  IN      PTR     1kst9.localdomain.
 
 10.110  IN      PTR     1ora0.localdomain.
 11.110  IN      PTR     1ora1.localdomain.
