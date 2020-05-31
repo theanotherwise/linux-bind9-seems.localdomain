@@ -189,6 +189,17 @@ ubuntu18        IN      A       10.10.0.62
 1git7           IN      A       10.10.130.17
 1git8           IN      A       10.10.130.18
 1git9           IN      A       10.10.130.19
+
+1kub0           IN      A       10.10.140.10
+1kub1           IN      A       10.10.140.11
+1kub2           IN      A       10.10.140.12
+1kub3           IN      A       10.10.140.13
+1kub4           IN      A       10.10.140.14
+1kub5           IN      A       10.10.140.15
+1kub6           IN      A       10.10.140.16
+1kub7           IN      A       10.10.140.17
+1kub8           IN      A       10.10.140.18
+1kub9           IN      A       10.10.140.19
 ```
 
 #### `reverse.localdomain`
@@ -350,4 +361,15 @@ $TTL    86400
 17.130  IN      PTR     1git7.localdomain.
 18.130  IN      PTR     1git8.localdomain.
 19.130  IN      PTR     1git9.localdomain.
+
+10.140  IN      PTR     1kub0.localdomain.
+11.140  IN      PTR     1kub1.localdomain.
+12.140  IN      PTR     1kub2.localdomain.
+13.140  IN      PTR     1kub3.localdomain.
+14.140  IN      PTR     1kub4.localdomain.
+15.140  IN      PTR     1kub5.localdomain.
+16.140  IN      PTR     1kub6.localdomain.
+17.140  IN      PTR     1kub7.localdomain.
+18.140  IN      PTR     1kub8.localdomain.
+19.140  IN      PTR     1kub9.localdomain.
 ```
