@@ -15,11 +15,11 @@ forwarders {
 ```bash
 zone "localdomain" IN {
   type master;
-  file "forward.localdomain";
+  file "db.localdomain";
 };
 
 zone "10.10.in-addr.arpa" IN {
   type master;
-  file "reverse.localdomain";
+  file "db.10.10";
 };
 ```
