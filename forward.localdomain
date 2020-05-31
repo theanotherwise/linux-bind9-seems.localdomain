@@ -1,4 +1,3 @@
-```
 $TTL    86400
 @       IN      SOA     dns0.localdomain. root.localdomain. (
         2011071001      ;       Serial
@@ -166,4 +165,3 @@ ubuntu18        IN      A       10.10.0.62
 1kub7           IN      A       10.10.140.17
 1kub8           IN      A       10.10.140.18
 1kub9           IN      A       10.10.140.19
-```
