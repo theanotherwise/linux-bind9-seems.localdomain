@@ -11,15 +11,23 @@ $TTL    86400
 
 dns0    IN      A       10.10.10.10
 
+centos6         IN      A       10.10.0.20
 centos7         IN      A       10.10.0.21
 centos8         IN      A       10.10.0.22
+
 rhel6           IN      A       10.10.0.30
 rhel7           IN      A       10.10.0.31
 rhel8           IN      A       10.10.0.32
+
+ol6             IN      A       10.10.0.40
 ol7             IN      A       10.10.0.41
 ol8             IN      A       10.10.0.42
+
+debian8         IN      A       10.10.0.50
 debian9         IN      A       10.10.0.51
 debian10        IN      A       10.10.0.52
+
+ubuntu14        IN      A       10.10.0.60
 ubuntu16        IN      A       10.10.0.61
 ubuntu18        IN      A       10.10.0.62
 
