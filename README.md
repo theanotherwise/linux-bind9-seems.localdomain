@@ -20,7 +20,7 @@ forwarders {
 ```
 
 ```bash
-zone "localdomain" IN {
+zone "db.localdomain" IN {
   type master;
   file "db.localdomain";
 };
