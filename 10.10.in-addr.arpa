@@ -11,14 +11,23 @@ $TTL    86400
 
 10.10   IN      PTR     dns0.localdomain.
 
+20.0    IN      PTR     centos6.localdomain.
 21.0    IN      PTR     centos7.localdomain.
 22.0    IN      PTR     centos8.localdomain.
+
+30.0    IN      PTR     rhel6.localdomain.
 31.0    IN      PTR     rhel7.localdomain.
 32.0    IN      PTR     rhel8.localdomain.
+
+40.0    IN      PTR     ol6.localdomain.
 41.0    IN      PTR     ol7.localdomain.
 42.0    IN      PTR     ol8.localdomain.
+
+50.0    IN      PTR     debian8.localdomain.
 51.0    IN      PTR     debian9.localdomain.
 52.0    IN      PTR     debian10.localdomain.
+
+60.0    IN      PTR     ubuntu14.localdomain.
 61.0    IN      PTR     ubuntu16.localdomain.
 62.0    IN      PTR     ubuntu18.localdomain.
 
