@@ -6,10 +6,17 @@ for j in $(for i in `cat 10.10.in-addr.arpa  | grep -Po " [a-z0-9]*\.localdomain
 ```
 
 ```
+named-checkconf /etc/bind/named.conf
+
 named-checkzone localdomain db.localdomain
 named-checkzone 10.10.in-addr.arpa. db.localdomain
 
+host localhost
+dig @localhost
+dig -x 127.0.0.1
 dig 10.10.in-addr.arpa. AXFR
+
+
 ```
 
 ```bash
