@@ -10,13 +10,13 @@ named-checkconf /etc/bind/named.conf
 
 named-checkzone localdomain db.localdomain
 named-checkzone 10.10.in-addr.arpa. db.localdomain
+```
 
+```
 host localhost
 dig @localhost
 dig -x 127.0.0.1
 dig 10.10.in-addr.arpa. AXFR
-
-
 ```
 
 ```bash
