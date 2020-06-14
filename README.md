@@ -7,7 +7,7 @@ for j in $(for i in `cat 10.10.in-addr.arpa  | grep -Po " [a-z0-9]*\.localdomain
 
 ```
 named-checkzone localdomain db.localdomain
-named-checkzone 10.10.in-addr.arpa. db.10.10
+named-checkzone 10.10.in-addr.arpa. db.localdomain
 
 dig 10.10.in-addr.arpa. AXFR
 ```
