@@ -187,13 +187,13 @@ $TTL    86400
 18.150  IN      PTR     1okd8.localdomain.
 19.150  IN      PTR     1okd9.localdomain.
 
-10.160  IN      PTR     1ipa0.localdomain.
-11.160  IN      PTR     1ipa1.localdomain.
-12.160  IN      PTR     1ipa2.localdomain.
-13.160  IN      PTR     1ipa3.localdomain.
-14.160  IN      PTR     1ipa4.localdomain.
-15.160  IN      PTR     1ipa5.localdomain.
-16.160  IN      PTR     1ipa6.localdomain.
-17.160  IN      PTR     1ipa7.localdomain.
-18.160  IN      PTR     1ipa8.localdomain.
-19.160  IN      PTR     1ipa9.localdomain.
+10.160  IN      PTR     1ipa0.ipa.localdomain.
+11.160  IN      PTR     1ipa1.ipa.localdomain.
+12.160  IN      PTR     1ipa2.ipa.localdomain.
+13.160  IN      PTR     1ipa3.ipa.localdomain.
+14.160  IN      PTR     1ipa4.ipa.localdomain.
+15.160  IN      PTR     1ipa5.ipa.localdomain.
+16.160  IN      PTR     1ipa6.ipa.localdomain.
+17.160  IN      PTR     1ipa7.ipa.localdomain.
+18.160  IN      PTR     1ipa8.ipa.localdomain.
+19.160  IN      PTR     1ipa9.ipa.localdomain.
