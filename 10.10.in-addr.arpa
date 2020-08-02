@@ -175,3 +175,25 @@ $TTL    86400
 17.140  IN      PTR     1kub7.localdomain.
 18.140  IN      PTR     1kub8.localdomain.
 19.140  IN      PTR     1kub9.localdomain.
+
+10.150  IN      PTR     1okd0.localdomain.
+11.150  IN      PTR     1okd1.localdomain.
+12.150  IN      PTR     1okd2.localdomain.
+13.150  IN      PTR     1okd3.localdomain.
+14.150  IN      PTR     1okd4.localdomain.
+15.150  IN      PTR     1okd5.localdomain.
+16.150  IN      PTR     1okd6.localdomain.
+17.150  IN      PTR     1okd7.localdomain.
+18.150  IN      PTR     1okd8.localdomain.
+19.150  IN      PTR     1okd9.localdomain.
+
+10.160  IN      PTR     1ipa0.localdomain.
+11.160  IN      PTR     1ipa1.localdomain.
+12.160  IN      PTR     1ipa2.localdomain.
+13.160  IN      PTR     1ipa3.localdomain.
+14.160  IN      PTR     1ipa4.localdomain.
+15.160  IN      PTR     1ipa5.localdomain.
+16.160  IN      PTR     1ipa6.localdomain.
+17.160  IN      PTR     1ipa7.localdomain.
+18.160  IN      PTR     1ipa8.localdomain.
+19.160  IN      PTR     1ipa9.localdomain.
