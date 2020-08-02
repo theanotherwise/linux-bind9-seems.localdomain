@@ -185,13 +185,13 @@ ubuntu18        IN      A       10.10.0.62
 1okd8           IN      A       10.10.150.18
 1okd9           IN      A       10.10.150.19
 
-1ipa0           IN      A       10.10.160.10
-1ipa1           IN      A       10.10.160.11
-1ipa2           IN      A       10.10.160.12
-1ipa3           IN      A       10.10.160.13
-1ipa4           IN      A       10.10.160.14
-1ipa5           IN      A       10.10.160.15
-1ipa6           IN      A       10.10.160.16
-1ipa7           IN      A       10.10.160.17
-1ipa8           IN      A       10.10.160.18
-1ipa9           IN      A       10.10.160.19
+1ipa0.ipa       IN      A       10.10.160.10
+1ipa1.ipa       IN      A       10.10.160.11
+1ipa2.ipa       IN      A       10.10.160.12
+1ipa3.ipa       IN      A       10.10.160.13
+1ipa4.ipa       IN      A       10.10.160.14
+1ipa5.ipa       IN      A       10.10.160.15
+1ipa6.ipa       IN      A       10.10.160.16
+1ipa7.ipa       IN      A       10.10.160.17
+1ipa8.ipa       IN      A       10.10.160.18
+1ipa9.ipa       IN      A       10.10.160.19
