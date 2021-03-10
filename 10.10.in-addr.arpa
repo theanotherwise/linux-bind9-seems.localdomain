@@ -1,12 +1,17 @@
 $TTL    86400
-@       IN      SOA     dns0.localdomain. root.localdomain. (
+@       IN              SOA     1dns0.seems.localdomain. root.seems.localdomain. (
         2011071001      ;       Serial
         3600            ;       Refresh
         1800            ;       Retry
         604800          ;       Expire
         86400           ;       Minimum TTL
 )
-@       IN      NS      dns0.localdomain.
-        IN      A       10.10.10.10
 
-10.10   IN      PTR     dns0.localdomain.
+                IN      NS      1dns0.seems.localdomain.
+                IN      NS      1dns1.seems.localdomain.
+  
+ns1             IN      A       10.10.5.10
+ns2             IN      A       10.10.5.20
+
+100             IN      PTR     1dns0.itsmarttricks.com.
+101             IN      PTR     1dns1.itsmarttricks.com.
