@@ -6,7 +6,9 @@ $TTL    86400
         604800          ;       Expire
         86400           ;       Minimum TTL
 )
-@       IN      NS      dns0.localdomain.
-@       IN      A       10.10.10.10
 
-dns0    IN      A       10.10.10.10
+@       IN      NS      1dns0.localdomain.
+@       IN      NS      1dns1.localdomain.
+
+1dns0   IN      A       10.10.5.10
+1dns0   IN      A       10.10.5.100
