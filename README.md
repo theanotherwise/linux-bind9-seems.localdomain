@@ -14,7 +14,7 @@ forwarders {
 ```
 
 ```bash
-zone "db.localdomain" IN {
+zone "seems.localdomain.forward" IN {
   type master;
   file "db.localdomain";
 };
