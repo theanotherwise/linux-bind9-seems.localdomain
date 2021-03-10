@@ -13,5 +13,5 @@ $TTL    86400
 1dns0           IN      A       10.10.5.10
 1dns1           IN      A       10.10.5.20
 
-100             IN      PTR     1dns0.itsmarttricks.com.
-101             IN      PTR     1dns1.itsmarttricks.com.
+10              IN      PTR     1dns0.itsmarttricks.com.
+20              IN      PTR     1dns1.itsmarttricks.com.
