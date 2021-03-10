@@ -11,4 +11,4 @@ $TTL    86400
 @               IN      NS      1dns1.seems.localdomain.
 
 1dns0           IN      A       10.10.5.10
-1dns0           IN      A       10.10.5.20
+1dns1           IN      A       10.10.5.20
