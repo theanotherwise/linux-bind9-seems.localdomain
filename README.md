@@ -24,3 +24,21 @@ zone "10.10.in-addr.arpa" IN {
   file "db.10.10";
 };
 ```
+
+```bash
+# Host-only Network
+10.0.0.0/24
+10.0.1.0/24
+# (...)
+10.0.9.0/24
+
+# NAT Network
+10.10.0.0/24      # 10.10.0.1
+
+# Pseudo Subnets
+10.10.0.10-19     # Workspace #0 (Templates)
+10.10.5.10-199    # Workspace #5
+10.10.10.10-199   # Workspace #10
+# (...)
+10.10.255.10-199  # Workspace #255
+```
